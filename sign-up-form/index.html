@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-up-form</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="form">
+      <h1 class="heading">Stay updated!</h1>
+      <p class="text1">Join 60,000+ product managers receiving monthly updates on:</p>
+      <div class="checkbox">
+        <div class="checkbox1">
+          <img class="icon" src="../assets/images/icon-list.svg" alt="icon">
+          <p> Product discovery and building what matters</p>
+         
+         
+        </div>
+        <div class="checkbox2">
+          <img class="icon" src="../assets/images/icon-list.svg" alt="icon">
+         <p> Measuring to ensure updates are a success</p>
+          
+        </div>
+        <div class="checkbox3">
+          <img class="icon" src="../assets/images/icon-list.svg" alt="icon">
+         <p> And much more!</p>
+        </div>
+
+      </div>
+      <div class="form-mail">
+        <div class="before-input">
+          <label class="mail" for="mail">Email Address</label>
+          <p id="validationMsg" class="text-color"></p>
+        </div>
+       
+        <input class="input" type="email" name="Email" id="email"  placeholder="email@company.com" required>
+      </div>
+       <button class="btn" id="myButton">
+        Subscribe to monthly newsletter
+       </button>  
+    </div>
+    <div class="illustration">
+     <img class="image" src="../assets/images/illustration-sign-up-desktop.svg">
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
